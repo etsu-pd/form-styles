@@ -150,8 +150,8 @@ div:has(#NextButton) {
 }
 
 .ui-datepicker-trigger button {
-  top: 6px;
-  right: 6px;
+  top: 6px !important;
+  right: 6px !important;
 }
 
 .ui-datepicker-calendar thead {
