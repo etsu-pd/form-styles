@@ -87,6 +87,9 @@ html,
 body {
   font-family: merriweather, Georgia, serif;
   padding: 24px;
+  background: #00053E;
+  color: #FFC72C;
+  background-color: #00053E !important;
 }
 
 td:has(textarea),
