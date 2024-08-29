@@ -132,3 +132,7 @@ div:has(#NextButton) {
 .mandatory span {
   margin-left: 4px;
 }
+
+.FormStyle {
+  display: block;
+}
