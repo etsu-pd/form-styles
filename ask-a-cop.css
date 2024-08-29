@@ -141,3 +141,11 @@ div:has(#NextButton) {
 .FormStyle {
   display: block !important;
 }
+
+#Required {
+  color: #FFC72C !important;
+}
+
+.inputcontainer::after {
+  color: #FFC72C !important;
+}
