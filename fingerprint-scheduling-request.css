@@ -1,0 +1,151 @@
+/* normalize css */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  table-layout: auto;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+  font-weight: normal;
+}
+
+th {
+  background-color: #f8f8f8;
+  font-weight: bold;
+}
+
+@media screen and (max-width:600px) {
+  table {
+    width: 100%;
+  }
+
+  th,
+  td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  th {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    margin-bottom: 12px;
+  }
+
+  tbody {
+    justify-items: stretch;
+    grid-row-gap: 12px;
+  }
+}
+
+/* site css */
+tbody {
+  display: grid;
+  grid-row-gap: 24px;
+  /* grid-template-columns: min-content;
+  justify-content: center;
+  justify-items: flex-start; */
+}
+
+#FormPage input[type=text]:read-only,
+#FormPage textarea:read-only {
+  background-color: #fff;
+  border: 1.9px solid #ccc;
+  color: rgb(84, 84, 84);
+  border-radius: 2px;
+}
+
+.g-recaptcha {
+  display: flex;
+  justify-content: center;
+}
+
+.inlinelabel {
+  margin-bottom: 12px;
+}
+
+body,
+td,
+input,
+textarea {
+  font: initial;
+  font-size: 1.2rem;
+}
+
+html,
+body {
+  font-family: merriweather, Georgia, serif;
+  padding: 24px;
+  background: #00053E;
+  color: #FFC72C;
+}
+
+td:has(textarea),
+.inputcontainer:has(textarea),
+.displayInlineBlock:has(textarea),
+.inputcontainer .displayInlineBlock textarea {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+}
+
+tr:has(textarea) {
+  justify-self: stretch;
+}
+
+span {
+  white-space: nowrap;
+}
+
+tr:first-child {
+  justify-self: center;
+}
+
+div:has(#NextButton) {
+  display: flex;
+  justify-content: end;
+}
+
+#NextButton {
+  width: auto;
+  background: #FFC72C;
+  color: #00053E;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.mandatory input {
+  margin-left: 4px;
+}
+
+.mandatory span {
+  margin-left: 4px;
+}
+
+#formBody {
+  display: flex;
+  justify-content: center;
+}
+
+.FormStyle {
+  display: block !important;
+}
+
+#Required {
+  color: #FFC72C !important;
+}
+
+.inputcontainer::after {
+  color: #FFC72C !important;
+}
