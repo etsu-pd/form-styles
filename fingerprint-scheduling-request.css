@@ -149,7 +149,7 @@ div:has(#NextButton) {
   color: #FFC72C !important;
 }
 
-.ui-datepicker-trigger button {
+button.ui-datepicker-trigger {
   top: 6px !important;
   right: 6px !important;
 }
