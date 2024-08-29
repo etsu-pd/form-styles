@@ -117,7 +117,7 @@ div:has(#NextButton) {
   justify-content: end;
 }
 
-#NextButtom {
+#NextButton {
   width: auto;
   background: #FFC72C;
   color: #00053E;
