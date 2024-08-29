@@ -184,6 +184,6 @@ button.ui-datepicker-trigger {
   padding: 6px !important;
 }
 
-.ui-datepicker-div {
+#ui-datepicker-div {
   width: auto !important;
 }
