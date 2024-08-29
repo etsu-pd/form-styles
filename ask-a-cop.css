@@ -53,9 +53,9 @@ th {
 tbody {
   display: grid;
   grid-row-gap: 24px;
-  grid-template-columns: min-content;
+  /* grid-template-columns: min-content;
   justify-content: center;
-  justify-items: flex-start;
+  justify-items: flex-start; */
 }
 
 #FormPage input[type=text]:read-only,
@@ -133,6 +133,11 @@ div:has(#NextButton) {
   margin-left: 4px;
 }
 
+#formBody {
+  display: flex;
+  justify-content: center;
+}
+
 .FormStyle {
-  display: block;
+  display: block !important;
 }
