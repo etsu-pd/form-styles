@@ -148,3 +148,38 @@ div:has(#NextButton) {
 .inputcontainer::after {
   color: #FFC72C !important;
 }
+
+.ui-datepicker-trigger button {
+  top: 6px;
+  right: 6px;
+}
+
+.ui-datepicker-calendar thead {
+  display: grid !important;
+}
+
+.ui-datepicker table {
+  width: auto;
+  font-size: .9em;
+  border-collapse: collapse;
+  margin: 0 0 .4em;
+  display: inline-table !important;
+}
+
+.ui-datepicker-calendar tbody {
+  grid-row-gap: 12px !important;
+}
+
+.ui-datepicker td span,
+.ui-datepicker td a {
+  display: inline-grid;
+  text-align: center !important;
+  width: 20px !important;
+}
+
+.ui-state-disabled,
+.ui-widget-content .ui-state-disabled,
+.ui-widget-header .ui-state-disabled {
+  width: 20px !important;
+  padding: 6px !important;
+}
