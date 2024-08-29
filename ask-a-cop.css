@@ -89,7 +89,6 @@ body {
   padding: 24px;
   background: #00053E;
   color: #FFC72C;
-  background-color: #00053E !important;
 }
 
 td:has(textarea),
@@ -120,8 +119,8 @@ div:has(#NextButton) {
 
 #NextButtom {
   width: auto;
-  background: #00053E;
-  color: #FFC72C;
+  background: #FFC72C;
+  color: #00053E;
   padding: 12px;
   border-radius: 4px;
 }
