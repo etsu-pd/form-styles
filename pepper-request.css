@@ -116,7 +116,7 @@ tr:first-child {
   justify-self: center;
 }
 
-div:has(#NextButton) {
+#formnavbuttons {
   display: flex;
   justify-content: end;
 }
