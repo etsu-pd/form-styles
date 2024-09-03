@@ -47,6 +47,11 @@ th {
     justify-items: stretch;
     grid-row-gap: 12px;
   }
+
+  html,
+  body {
+    padding: 6px;
+  }
 }
 
 /* site css */
@@ -55,6 +60,10 @@ tbody {
   grid-row-gap: 24px;
   grid-template-columns: min-content;
   justify-content: center;
+}
+
+#FormPage span:first-child {
+  font-size: 1.7rem;
 }
 
 #FormPage input[type=text]:read-only,
@@ -147,4 +156,8 @@ div:has(#NextButton) {
 
 .inputcontainer::after {
   color: #FFC72C !important;
+}
+
+#maincontent {
+  width: 100%;
 }
