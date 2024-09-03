@@ -21,7 +21,7 @@ th {
   font-weight: bold;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:850px) {
   table {
     width: 100%;
   }
@@ -45,7 +45,7 @@ th {
 
   tbody {
     justify-items: stretch;
-    grid-row-gap: 12px;
+    grid-row-gap: 6px;
   }
 
   html,
@@ -60,10 +60,6 @@ tbody {
   grid-row-gap: 24px;
   grid-template-columns: min-content;
   justify-content: center;
-}
-
-#FormPage span:first-child {
-  font-size: 1.7rem;
 }
 
 #FormPage input[type=text]:read-only,
@@ -160,4 +156,8 @@ div:has(#NextButton) {
 
 #maincontent {
   width: 100%;
+}
+
+.form-title span {
+  font-size: 1.6rem;
 }
