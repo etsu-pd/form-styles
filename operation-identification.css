@@ -153,7 +153,7 @@ div:has(#NextButton) {
   font-size: 1.7rem;
 }
 
-.form-title tr {
+tr:has(.form-title) {
   justify-self: center;
 }
 
