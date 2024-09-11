@@ -54,7 +54,10 @@ tbody {
   display: grid;
   grid-row-gap: 24px;
   grid-template-columns: min-content;
-  justify-content: center;
+}
+
+.verAlignTop {
+  text-wrap: nowrap;
 }
 
 #FormPage input[type=text]:read-only,
@@ -107,10 +110,6 @@ span {
   white-space: nowrap;
 }
 
-tr:first-child {
-  justify-self: center;
-}
-
 div:has(#NextButton) {
   display: flex;
   justify-content: end;
@@ -134,7 +133,6 @@ div:has(#NextButton) {
 
 #formBody {
   display: flex;
-  justify-content: center;
 }
 
 .FormStyle {
@@ -147,4 +145,16 @@ div:has(#NextButton) {
 
 .inputcontainer::after {
   color: #FFC72C !important;
+}
+
+.form-title div {
+  width: max-content;
+  font-size: 1.7rem;
+}
+
+.personal-info div,
+.personal-property div {
+  width: max-content;
+  font-size: 1.4rem;
+  text-decoration: underline;
 }
