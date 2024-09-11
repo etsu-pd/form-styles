@@ -151,6 +151,9 @@ div:has(#NextButton) {
 .form-title div {
   width: max-content;
   font-size: 1.7rem;
+}
+
+.form-title tr {
   justify-self: center;
 }
 
