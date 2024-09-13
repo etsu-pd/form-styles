@@ -163,3 +163,7 @@ tr:has(.form-title) {
   font-size: 1.4rem;
   text-decoration: underline;
 }
+
+.select2-results {
+  color: #00053E;
+}
