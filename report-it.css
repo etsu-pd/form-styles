@@ -157,15 +157,15 @@ tr:has(.form-title) {
   justify-self: center;
 }
 
-tr:has(.date-time) {
+td:has(.date-time) {
   padding: 0;
 }
 
-tr:has(.name) {
+td:has(.name) {
   padding: 0;
 }
 
-tr:has(.email) {
+td:has(.email) {
   padding: 0;
 }
 
