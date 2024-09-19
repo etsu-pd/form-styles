@@ -181,3 +181,7 @@ td:has(.phone) {
 .instructions {
   color: #fff;
 }
+
+.fcRed {
+  color: unset !important;
+}
