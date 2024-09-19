@@ -157,24 +157,15 @@ tr:has(.form-title) {
   justify-self: center;
 }
 
-td:has(.contact-title) {
+td:has(.contact-title),
+td:has(.date-time),
+td:has(.name),
+td:has(.email) {
   padding: 0;
 }
 
 .contact-title div {
   font-size: 1.5rem;
-}
-
-td:has(.date-time) {
-  padding: 0;
-}
-
-td:has(.name) {
-  padding: 0;
-}
-
-td:has(.email) {
-  padding: 0;
 }
 
 .personal-info div,
