@@ -161,7 +161,8 @@ td:has(.date-time),
 td:has(.name),
 td:has(.email),
 td:has(.address),
-td:has(.fax) {
+td:has(.fax),
+td:has(.phone) {
   padding: 0;
 }
 
