@@ -21,7 +21,7 @@ th {
   font-weight: bold;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:850px) {
   table {
     width: 100%;
   }
@@ -54,7 +54,10 @@ tbody {
   display: grid;
   grid-row-gap: 24px;
   grid-template-columns: min-content;
-  justify-content: center;
+}
+
+.verAlignTop {
+  text-wrap: nowrap;
 }
 
 #FormPage input[type=text]:read-only,
@@ -107,10 +110,6 @@ span {
   white-space: nowrap;
 }
 
-tr:first-child {
-  justify-self: center;
-}
-
 div:has(#NextButton) {
   display: flex;
   justify-content: end;
@@ -147,4 +146,20 @@ div:has(#NextButton) {
 
 .inputcontainer::after {
   color: #FFC72C !important;
+}
+
+.form-title div {
+  width: max-content;
+  font-size: 1.7rem;
+}
+
+tr:has(.form-title) {
+  justify-self: center;
+}
+
+.personal-info div,
+.personal-property div {
+  width: max-content;
+  font-size: 1.4rem;
+  text-decoration: underline;
 }
