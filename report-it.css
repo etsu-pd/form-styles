@@ -150,11 +150,19 @@ div:has(#NextButton) {
 
 .form-title div {
   width: max-content;
-  font-size: 1.7rem;
+  font-size: 2.0rem;
 }
 
 tr:has(.form-title) {
   justify-self: center;
+}
+
+td:has(.contact-title) {
+  padding: 0;
+}
+
+.contact-title div {
+  font-size: 1.5rem;
 }
 
 td:has(.date-time) {
