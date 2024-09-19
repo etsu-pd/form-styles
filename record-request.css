@@ -140,7 +140,8 @@ div:has(#NextButton) {
   display: block !important;
 }
 
-#Required {
+#Required,
+.formConditionDisplay {
   color: #FFC72C !important;
 }
 
@@ -175,4 +176,8 @@ td:has(.phone) {
 
 .select2-results {
   color: #00053E;
+}
+
+.instructions {
+  color: #fff;
 }
