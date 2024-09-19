@@ -157,6 +157,18 @@ tr:has(.form-title) {
   justify-self: center;
 }
 
+tr:has(.date-time) {
+  padding: 0;
+}
+
+tr:has(.name) {
+  padding: 0;
+}
+
+tr:has(.email) {
+  padding: 0;
+}
+
 .personal-info div,
 .personal-property div {
   width: max-content;
