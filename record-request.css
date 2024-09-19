@@ -188,3 +188,7 @@ td:has(.phone) {
 .fcRed {
   color: unset !important;
 }
+
+.inputcontainer {
+  padding-left: 6px;
+}
